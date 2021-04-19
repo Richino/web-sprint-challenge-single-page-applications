@@ -1,11 +1,15 @@
 import React from "react";
+import "./App.css";
+//import Main from "./components/main";
+import Nav from "./components/nav";
+import Pizza from "./components/pizza";
 
 const App = () => {
-  return (
-    <>
-      <h1>Lambda Eats</h1>
-      <p>You can remove this code and create your own header</p>
-    </>
-  );
+	return (
+		<>
+			<Nav />
+			<Pizza />
+		</>
+	);
 };
 export default App;
